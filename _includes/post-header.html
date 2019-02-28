@@ -1,0 +1,9 @@
+<div id="post-header">
+
+	<img src="/img/{{page.img}}" class="img-fluid">
+
+	<h1>{{ page.title }}</h1>
+
+	<p class="date">Published {{ page.date | date_to_string }} in <a href="/blog/{{ page.categories[0] }}" style="text-transform: capitalize;">{{ page.categories[0] }}</a></p>
+
+</div>
