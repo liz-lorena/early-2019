@@ -208,6 +208,7 @@ div#footer-widgets div.widget ul li .dropdown-content {
 /*Education*/
 div#split {
 	float: left;
+	width: 100%;
 }
 date {
 	font-size: 12pt;
