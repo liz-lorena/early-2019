@@ -208,7 +208,6 @@ div#footer-widgets div.widget ul li .dropdown-content {
 /*Education*/
 div#split {
 	float: left;
-	width: 33%;
 }
 date {
 	font-size: 12pt;
@@ -1209,4 +1208,7 @@ img.home-img.larger {
 	div.post:hover p.excerpt {
 		display: block;
 	}
+	div#split {
+	width: 33%;
+}
 }
