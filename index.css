@@ -254,13 +254,13 @@ div#top-menu-left li a, div#top-menu-right li a, div#menu li a {
 	display: block;
 }
 /*Title*/
-div#set {
+div#header div#set {
 	width: 1200px;
 	margin: 0 auto;
 	padding: 0;
 }
 
-div#title p {
+div#header div#title p {
 	color: white;
 	display: block;
 	position: absolute;
@@ -271,12 +271,31 @@ div#title p {
 	width: 800px;
 }
 
-div#title p#sub {
+div#mobile-header div#title p {
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 16pt;
+	font-family: Arial, sans-serif;
+}
+
+div#header div#title p#sub {
 	margin-top: 130px;
 	font-size: 36pt;
 }
 
-div#title h1 a {
+div#mobile-header div#title p#sub {
+	margin-top: 20px;
+}
+
+div#mobile-header div#title h1 a {
+	color: white;
+	display: block;
+	text-align: center;
+	font-size: 26pt;
+}
+
+div#header div#title h1 a {
 	color: white;
 	display: block;
 	position: absolute;
@@ -370,10 +389,26 @@ div#pfp {
 	padding: 0;
 }
 
+div#mobile-header div#pfp {
+	width: 180px;
+}
+
+div#mobile-header {
+	height: 350px;
+}
+
+div#mobile-header div#pfp img.pfp {
+	width: 100%;
+	border-radius: 100%;
+}
+
 div#header {
 	display: none;
-	padding-top: 100px;
 	height: 500px;
+	padding-top: 100px;
+}
+
+div#header, div#mobile-header {
 	border-bottom: 5px solid #00b38b;
 	background: linear-gradient(-90deg, #00b38b, #4D00E2);
 	background-size: 200% 200%;
