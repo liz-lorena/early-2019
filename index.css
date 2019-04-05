@@ -100,6 +100,8 @@ p.categories {
 }
 div#content div.post a h1 {
 	font-size: 26pt;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 /*All Links*/
 a {
@@ -117,6 +119,7 @@ div#mobile-menu {
 	display: block;
 	height: 50px;
 	width: 100%;
+	margin-bottom: 60px;
 	background-color: #fafafa;
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
 }
@@ -209,12 +212,14 @@ div#footer-widgets div.widget ul li .dropdown-content {
 div#split {
 	float: left;
 	width: 100%;
+	margin-top: 30px;
 }
 date {
 	font-size: 12pt;
 	font-style: italic;
 }
 /*Top-Menu-Right*/
+
 div#top-menu-right {
 	float: right;
 	list-style: none;
@@ -222,9 +227,6 @@ div#top-menu-right {
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
-}
-div#top-menu-right ul li, div#footer-widgets div.widget ul li {
-	
 }
 div#top-menu-right ul li a:hover, div#top-menu-left ul li a:hover {
 	color: #00b38b;
@@ -241,11 +243,11 @@ div#top-menu-left li a, div#top-menu-right li a, div#top-menu-left li, div#top-m
 div#top-menu-left li a:hover, div#top-menu-right li a:hover, div#menu li a:hover {
 	color: #00b38b;
 }
-div#top-menu-left ul, div#top-menu-right ul {
+/*div#top-menu-left ul, div#top-menu-right ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
+}*/
 div#top-menu-left li, div#top-menu-right li, div#footer-widgets div.widget li {
 	float: left;
 	margin: 0px 10px 0px 10px;
@@ -381,6 +383,7 @@ div#header div#pfp img.pfp {
 	width: 100%;
 	border-radius: 100%;
 	margin-top: 25px;
+	border: 5px solid #00b38b;
 }
 
 div#pfp {
@@ -400,6 +403,9 @@ div#mobile-header {
 div#mobile-header div#pfp img.pfp {
 	width: 100%;
 	border-radius: 100%;
+	border: 5px solid #00b38b;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 div#header {
@@ -486,10 +492,10 @@ div.widget-body ul {
 	list-style: none;
 	list-style-type: none;
 }
-div.widget-body ul li::before {
-	Content: "★ ";
-	position: relative;
-	display: block;
+div#split ul li::before {
+	Content: "✩ ";
+	position: absolute;
+	margin-left: -25px;
 }
 div.widget-body ul li {
 	margin-top: 20px;
@@ -560,9 +566,7 @@ div#footer-widgets div.widget ul {
 	padding: 0;
 	padding-top: 30px;
 }
-div#footer-widgets div.widget div#socials ul, div.widget div#socials ul {
-	width: 150px;
-}
+
 div#footer-widgets div.widget ul li a, div.widget ul li a {
 	color: #292b2c;
 	padding: 20px 0px 20px 0px;
@@ -629,12 +633,12 @@ div.section {
 }
 
 div.divide {
-	border-bottom: 1px solid lightgray;
+	border-bottom: 1px solid white;
 	height: 2px;
 	width: 100%;
 	float: left;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 90px;
 }
 
 div#main-area a:hover {
@@ -658,6 +662,7 @@ div#content h4 {
 	text-align: left;
 }
 div#content h3 {
+	margin-top: 30px;
 	font-size: 24pt;
 	text-align: left;
 }
@@ -668,8 +673,8 @@ div#content h2 {
 div#content h1 {
 	font-size: 34pt;
 	text-align: center;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 60px;
 	width: 100%;
 }
 div#content p, div#content ul li, div.widget-body p, div.widget-body ul li {
@@ -681,8 +686,7 @@ div#content p {
 	line-height: 30px;
 }
 div#content h2, div#content h3, div#content h4, div#content h5, div#content h6 {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 	line-height: 50px;
 }
 div#content ul li {
@@ -694,9 +698,7 @@ div#content ul {
 	list-style: none;
 	list-style-type: none;
 }
-div#content ul li::before {
-	Content: "★ ";
-}
+
 /*Form Stuff*/
 #contact {
 	width: 100%;
@@ -806,9 +808,7 @@ textarea:focus {
 #work {
 	padding: 0;
 	text-align: justify;
-	padding-top: 3%;
 	margin-bottom: 3%;
-	padding-top: 30px;
 }
 /*Work Posts*/
 .skill-post {
@@ -951,9 +951,12 @@ img.home-img.larger {
 	margin: 0px 30px 0px 30px;
 	}
 
-	div#content p, div#content ul li, div.widget-body p, div.widget-body ul li {
+	div#content p {
 		font-size: 15pt;
 		text-align: left;
+	}
+	div#content div#top-menu-right ul li {
+		font-size: 20pt;
 	}
 	div.container-fluid {
 		padding-right: 0px;
@@ -1003,11 +1006,11 @@ img.home-img.larger {
 		float: left; 
 		display: block;
 	}
-	div#content h1 {
+	/*div#content h1 {
 		font-size: 42pt;
 		text-align: center;
 		margin-bottom: 30px;
-	}
+	}*/
 	img.home-img {
 		width: 20%;
 		margin-bottom: 0px;
@@ -1039,14 +1042,13 @@ img.home-img.larger {
 		margin-top: 0px;
 	}
 	div#top-menu-right ul {
-		width: 400px;
+		width: 250px;
 		margin: 0 auto;
 		padding: 0;
 	}
-	div#top-menu-right {
-		width: 1100px;
-		font-size: 20pt;
-	}
+	/*div#top-menu-right {
+		width: 950px;
+	}*/
 	div#top-menu-left {
 		width: 500px;
 	}
@@ -1059,15 +1061,7 @@ img.home-img.larger {
 	div#footer-widgets {
 		width: 100%;
 	}
-	div#footer-widgets div.widget ul, div.socials ul {
-		float left;
-	}
-	div.socials {
-		width: 100%;
-	}
-	div.widget div#socials {
-		width: 300px;
-	}
+	
 	div.widget {
 		width: 300px;
 	}
@@ -1104,7 +1098,6 @@ img.home-img.larger {
 
 	#work{
 		width: 1100px;	
-		margin-top: 20px;
 	}
 
 	.skill-post{
@@ -1196,9 +1189,9 @@ img.home-img.larger {
 		text-align: justify; !important
 		width: 380px;
 		display: none;
+		margin-bottom: 0px;
 		-webkit-transition: .5s; /* Safari */
 		transition: .5s;
-		margin-bottom: 0px;
 	}
 	div.post:hover img {
 		opacity: .3;
@@ -1211,5 +1204,6 @@ img.home-img.larger {
 	}
 	div#split {
 	width: 33%;
+	margin-top: 0px;
 }
 }
