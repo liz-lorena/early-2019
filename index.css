@@ -266,7 +266,7 @@ div#header div#title p {
 	color: white;
 	display: block;
 	position: absolute;
-	text-align: justify;
+	text-align: center;
 	font-size: 26pt;
 	font-family: Arial, sans-serif;
 	margin-top: 220px;
@@ -582,49 +582,6 @@ div#credits {
 }
 div#credits a:hover {
 	color: #00b38b;
-}
-/*Author Box*/
-div#author-box {
-	border-radius: 0px;
-	width: 100%;
-	margin: 50px 0px 50px 0px;
-}
-div#author-box p {
-	margin-left: 0%;
-	padding: 20px;
-	border: lightgray 1px solid;
-	border-radius: 0px;
-	color: black;
-	display: block;
-	text-align: justify; !important
-}
-div#author-box p::before {
-	content:" ";
-	border-bottom: 10px solid #dddddd;
-	border-left: 10px solid transparent;  
-	border-right: 10px solid transparent;
-	height: 0px;
-	width: 0px;
-	margin-top: -30px;
-	padding: 0px;
-	display: block;
-	position: absolute;
-}
-div#author-box img {
-	border-radius: 50%; 
-	width: 100%;
-	float: none; 
-	display: block;
-}
-div#author-box h4 {
-	text-align: center;
-}
-/*Comments*/
-div#comments {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0;
-	margin: 30px 0px 30px 0px;
 }
 /*Main Area*/
 div.section {
@@ -977,34 +934,6 @@ img.home-img.larger {
 		width: 30%;
 		float: left;
 		list-style: none;
-	}
-	div#author-box p {
-		margin-left: 22%;
-		padding: 20px;
-		border: lightgray 1px solid;
-		border-radius: 0px;
-		color: black;
-		display: block;
-		text-align: justify; !important
-	}
-	div#author-box p::before {
-		content:" ";
-		border-top: 10px solid transparent;
-		border-bottom: 10px solid transparent;  
-		border-right: 10px solid #dddddd;
-		height: 0px;
-		width: 0px;
-		margin-left: -40px;
-		margin-top: 0px;
-		padding: 0px;
-		display: block;
-		position: absolute;
-	}
-	div#author-box img {
-		border-radius: 50%; 
-		width: 20%; 
-		float: left; 
-		display: block;
 	}
 	/*div#content h1 {
 		font-size: 42pt;
