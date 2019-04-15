@@ -398,7 +398,7 @@ div#top-menu-left li a:hover, div#top-menu-right li a:hover, div#menu li a:hover
 	}
 
 	div#mobile-header {
-		min-height: 350px;
+		min-height: 400px;
 	}
 
 	div#mobile-header div#pfp img.pfp {
@@ -417,7 +417,7 @@ div#top-menu-left li a:hover, div#top-menu-right li a:hover, div#menu li a:hover
 
 	div#header, div#mobile-header {
 		border-bottom: 5px solid #00b38b;
-		background: linear-gradient(90deg, #00b38b, #4D00E2);
+		background: linear-gradient(270deg, #4D00E2, #00b38b);
 		background-size: 200% 200%;
 	/*-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 5s ease infinite;
@@ -599,6 +599,10 @@ div.divide {
 	margin-bottom: 90px;
 }
 
+div.divide#about {
+	display: none;
+}
+
 div#main-area a:hover {
 	color: #00b38b;
 }
@@ -635,7 +639,7 @@ div#content h1 {
 	margin-bottom: 60px;
 	width: 100%;
 }
-div#content p, div#content ul li, div.widget-body p, div.widget-body ul li {
+div#content p, div.widget-body p, div.widget-body ul li {
 	font-size: 12pt;
 	text-align: left;
 }
@@ -661,8 +665,8 @@ div#content ul {
 #contact {
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 5%;
-	padding-bottom: 3%;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 form::before {
 	content: "hello@byliz.org";
@@ -898,6 +902,9 @@ span.all:hover {
 	cursor:pointer;
 	color: rgba(1,1,1,.5);
 }
+div#split h2 {
+	font-size: 25pt;
+}
 /*Large devices*/
 @media (max-width: 568px) {	
 	div.wp-block-image figure.alignleft {
@@ -906,6 +913,13 @@ span.all:hover {
 }
 @media (min-width: 768px) {	
 
+	div.divide#about {
+	display: block;
+}
+
+	div#split h2 {
+	font-size: 30pt;
+}
 	div#title {
 		float: left;
 	}
