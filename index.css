@@ -905,6 +905,10 @@ span.all:hover {
 div#split h2 {
 	font-size: 25pt;
 }
+
+div.post.hide {
+	display: none;
+}
 /*Large devices*/
 @media (max-width: 568px) {	
 	div.wp-block-image figure.alignleft {
@@ -914,12 +918,12 @@ div#split h2 {
 @media (min-width: 768px) {	
 
 	div.divide#about {
-	display: block;
-}
+		display: block;
+	}
 
 	div#split h2 {
-	font-size: 30pt;
-}
+		font-size: 30pt;
+	}
 	div#title {
 		float: left;
 	}
@@ -1098,9 +1102,6 @@ div#split h2 {
 		}
 		div.post.main p.excerpt {
 			display: block;
-		}
-		div.post.hide {
-			display: none;
 		}
 		#contact {
 			width: 50%;
