@@ -34,6 +34,61 @@
       });
     })(jQuery);
   </script>
+  <script>
+    $(document).ready(function(){
+      $("span.all").click(function(){
+        $("div.post").removeClass("hide");
+      });
+      $("a.java").click(function(){
+        $("div.post:not([java])").addClass("hide");
+        $("div.post.java").removeClass("hide");
+      });
+      $("a.html").click(function(){
+        $("div.post:not([html])").addClass("hide");
+        $("div.post.html").removeClass("hide");
+      });
+      $("a.css").click(function(){
+        $("div.post:not([css])").addClass("hide");
+        $("div.post.css").removeClass("hide");
+      });
+      $("a.bootstrap").click(function(){
+        $("div.post:not([bootstrap])").addClass("hide");
+        $("div.post.bootstrap").removeClass("hide");
+      });
+      $("a.javascript").click(function(){
+        $("div.post:not([javascript])").addClass("hide");
+        $("div.post.javascript").removeClass("hide");
+      });
+      $("a.jquery").click(function(){
+        $("div.post:not([jquery])").addClass("hide");
+        $("div.post.jquery").removeClass("hide");
+      });
+      $("a.php").click(function(){
+        $("div.post:not([php])").addClass("hide");
+        $("div.post.php").removeClass("hide");
+      });
+      $("a.wordpress").click(function(){
+        $("div.post:not([wordpress])").addClass("hide");
+        $("div.post.wordpress").removeClass("hide");
+      });
+      $("a.jekyll").click(function(){
+        $("div.post:not([jekyll])").addClass("hide");
+        $("div.post.jekyll").removeClass("hide");
+      });
+      $("a.visualbasic").click(function(){
+        $("div.post:not([visualbasic])").addClass("hide");
+        $("div.post.visualbasic").removeClass("hide");
+      });
+      $("a.unity").click(function(){
+        $("div.post:not([unity])").addClass("hide");
+        $("div.post.unity").removeClass("hide");
+      });
+      $("a.gm").click(function(){
+        $("div.post:not([gm])").addClass("hide");
+        $("div.post.gm").removeClass("hide");
+      });
+    });
+  </script>
 
   <link href="cssreset.css" rel="stylesheet">
   <link href="index.css" rel="stylesheet">

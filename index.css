@@ -397,7 +397,7 @@ div#mobile-header div#pfp {
 }
 
 div#mobile-header {
-	height: 350px;
+	min-height: 350px;
 }
 
 div#mobile-header div#pfp img.pfp {
@@ -418,9 +418,9 @@ div#header, div#mobile-header {
 	border-bottom: 5px solid #00b38b;
 	background: linear-gradient(-90deg, #00b38b, #4D00E2);
 	background-size: 200% 200%;
-	-webkit-animation: Gradient 5s ease infinite;
+	/*-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 5s ease infinite;
-	animation: Gradient 5s ease infinite;
+	animation: Gradient 5s ease infinite;*/
 }
 @-webkit-keyframes Gradient {
 	0% {
@@ -1050,6 +1050,12 @@ img.home-img.larger {
 		padding: 0;
 	}
 	/*Non-Gallery Style Blog*/
+	span.all {
+		font-size: 30%;
+	}
+	span.all:hover {
+		cursor:pointer;
+	}
 	div.post.main {
 		width: 100%;
 		box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
@@ -1076,6 +1082,9 @@ img.home-img.larger {
 	}
 	div.post.main p.excerpt {
 		display: block;
+	}
+	div.post.hide {
+		display: none;
 	}
 	#contact {
 		width: 50%;
