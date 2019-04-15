@@ -156,7 +156,7 @@ div#mobile-menu .dropdown:hover .dropdown-content {
 	display: block;
 }
 div#mobile-menu .dropdown-content li a {
-	
+	font-family: 'Playfair Display', serif;
 	text-align: center;
 	width: 100%;
 }
