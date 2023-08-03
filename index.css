@@ -1022,9 +1022,10 @@ div.post.hide {
 		}
 
 		div#content {
+			margin: 0 auto;
 			width: 1100px;
-			float: left;
-			padding: 0px 0px 0px 0px;
+			/*float: left;
+			padding: 0px 0px 0px 0px;*/
 		}
 
 		div#main-area {
