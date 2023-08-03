@@ -653,12 +653,15 @@ div#content h2, div#content h3, div#content h4, div#content h5, div#content h6 {
 }
 div#content ul li {
 	margin-top: 20px;
-	margin-left: 25px;
+	margin-left:10px;
+	margin-right:10px;
 	line-height: 20pt;
 }
 div#content ul {
-	list-style: none;
-	list-style-type: none;
+	/*list-style: none;
+	list-style-type: none;*/
+	max-width:200px;
+	margin:0 auto;
 }
 
 /*Form Stuff*/
