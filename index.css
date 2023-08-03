@@ -267,7 +267,7 @@ div#top-menu-left li a:hover, div#top-menu-right li a:hover, div#menu li a:hover
 		color: white;
 		display: block;
 		position: absolute;
-		text-align: center;
+		/*text-align: center;*/
 		font-size: 26pt;
 		font-family: Arial, sans-serif;
 		margin-top: 220px;
