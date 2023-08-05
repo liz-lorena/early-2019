@@ -168,6 +168,7 @@ div#menu {
 	background-color: #fafafa;
 	box-shadow: 0px 1px 5px rgba(0,0,0,0.1);
 	border-bottom: 5px solid #00b38b;
+	z-index:1000;
 }
 div#menu ul li {
 	padding-top: 12px;
